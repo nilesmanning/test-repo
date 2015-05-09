@@ -16,7 +16,7 @@ energy<-subset(energy,Date=="1/2/2007"| Date=="2/2/2007")
 ##convert Date to date class
 energy$Date<-as.Date(energy$Date, "%d/%m/%Y")
 
-#add gTime column to POSIXTlt so as to use it in the graphs
+#add gTime column to energy in POSIXTlt class so as to use it in the graphs
 energy$gTime<-as.POSIXlt(paste(energy$Date,energy$Time,sep=" "))
 
 

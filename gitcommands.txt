@@ -1,0 +1,8 @@
+cd ~/test-repo
+
+git add .
+git add -u
+git add -A
+
+git commit -m "message"
+git push
