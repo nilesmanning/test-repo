@@ -1,4 +1,5 @@
 cd ~/test-repo
+cd ~/ExData_Plotting1
 
 git add .
 git add -u
